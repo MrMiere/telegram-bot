@@ -66,11 +66,11 @@ def get_market():
 
 def build_message(c, m):
     return (
-        "<b>📡 LIVE MARKET ALERT\n\n"
+        "<b>LIVE MARKET ALERT 📡\n\n"
         f"🥇 Gold     → ${m['GOLD']:,.1f}\n"
         f"💵 DXY      → {m['DXY']:.2f}\n\n"
-        f" ₿    BTC     → ${c['BTC']:,.0f}\n"
-        f" ⟠    ETH     → ${c['ETH']:,.0f}\n"
+        f" ₿   BTC      → ${c['BTC']:,.0f}\n"
+        f" ⟠   ETH      → ${c['ETH']:,.0f}\n"
         f"💎 TON      → ${c['TON']:.2f}\n\n"
         f"🛢️ Brent    → ${m['BRENT']:.2f}\n"
         f"🛢️ WTI       → ${m['WTI']:.2f}\n"
@@ -94,7 +94,7 @@ def run():
         except Exception as e:
             print("❌ Error:", e)
 
-        time.sleep(60)
+        time.sleep(300)
 
 
 if __name__ == "__main__":
