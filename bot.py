@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHANNEL = "@your_channel_username"  # این رو عوض کن به اسم کانالت
+CHANNEL = "@thetopminers"  # این رو عوض کن به اسم کانالت
 
 print("🚀 Bot is starting...")
 print(f"Token exists: {BOT_TOKEN is not None}")
