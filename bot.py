@@ -94,7 +94,7 @@ def run():
         except Exception as e:
             print("❌ Error:", e)
 
-        time.sleep(600)
+        time.sleep(60)
 
 
 if __name__ == "__main__":
